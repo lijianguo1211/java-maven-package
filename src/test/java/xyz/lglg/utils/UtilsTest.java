@@ -1,6 +1,9 @@
 package xyz.lglg.utils;
 
 import org.junit.Test;
+import xyz.lglg.packageMvn.utils.CollectionUtil;
+import xyz.lglg.packageMvn.utils.NumberUtil;
+import xyz.lglg.packageMvn.utils.StringUtil;
 
 /**
  * @author jay.li
