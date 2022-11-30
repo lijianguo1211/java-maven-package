@@ -16,6 +16,7 @@ https://lijianguo1211.github.io/java-maven-package/maven-repo/xyz/lglg/packageMv
 ## 以github为仓库使用
 
 ```xml
+
 <repositories>
     <repository>
         <id>github-rich-repo</id>
@@ -25,10 +26,10 @@ https://lijianguo1211.github.io/java-maven-package/maven-repo/xyz/lglg/packageMv
 </repositories>
 
 <dependencies>
-    <dependency>
-        <groupId>xyz.lglg.packageMvn</groupId>
-        <artifactId>java-maven-package</artifactId>
-        <version>1.0-SNAPSHOT</version>
-    </dependency>
+<dependency>
+    <groupId>xyz.lglg.packagemvnxyz.lglg.packagemvn</groupId>
+    <artifactId>java-maven-package</artifactId>
+    <version>1.0-SNAPSHOT</version>
+</dependency>
 </dependencies>
 ```

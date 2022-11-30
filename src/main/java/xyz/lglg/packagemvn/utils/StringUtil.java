@@ -1,4 +1,4 @@
-package xyz.lglg.packageMvn.utils;
+package xyz.lglg.packagemvn.utils;
 
 /**
  * @author jay

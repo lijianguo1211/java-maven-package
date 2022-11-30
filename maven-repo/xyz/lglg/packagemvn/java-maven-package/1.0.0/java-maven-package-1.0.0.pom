@@ -38,21 +38,21 @@
     </scm>
 
     <distributionManagement>
-<!--        上传到github打开-->
-<!--        <repository>-->
-<!--            <id>local-repo-release</id>-->
-<!--            <name>GitHub Release</name>-->
-<!--            <url>file://${project.basedir}/maven-repo</url>-->
-<!--        </repository>-->
-
-        <snapshotRepository>
-            <id>sonatype</id>
-            <url>https://s01.oss.sonatype.org/content/repositories/snapshots/</url>
-        </snapshotRepository>
+<!--        上传到github-->
         <repository>
-            <id>sonatype</id>
-            <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <id>local-repo-release</id>
+            <name>GitHub Release</name>
+            <url>file://${project.basedir}/maven-repo</url>
         </repository>
+
+<!--        <snapshotRepository>-->
+<!--            <id>sonatype</id>-->
+<!--            <url>https://s01.oss.sonatype.org/content/repositories/snapshots/</url>-->
+<!--        </snapshotRepository>-->
+<!--        <repository>-->
+<!--            <id>sonatype</id>-->
+<!--            <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>-->
+<!--        </repository>-->
     </distributionManagement>
 
     <dependencies>
